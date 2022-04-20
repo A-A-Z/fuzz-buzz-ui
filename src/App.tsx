@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
 // import './App.css';
+import Form from './components/form'
 import './assets/styles/app.scss';
 
 const App = () => (
@@ -9,6 +10,7 @@ const App = () => (
     <header>
       <h1>FuzzBuzz UI</h1>
     </header>
+    <Form />
   </div>
 )
 
